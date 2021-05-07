@@ -7,8 +7,8 @@
 .mostly-customized-scrollbar::-webkit-scrollbar {
     width: 5px;
     height: 8px;
-    background-color: #aaa; /* or add it to the track */
-  }
+    background-color: black; /* or add it to the track */
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -46,7 +46,7 @@ main {
 
 .user {
     position: relative;
-    width: calc(100% / 6 - 6px);
+    width: 200px;
     margin: 3px;
 }
 
@@ -66,6 +66,46 @@ main {
 }
 
 footer {
+    font-size: 13px;
     height: 100px;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > * {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.icon span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer i {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.fa-chevron-up {
+    font-size: 10px;
+    margin: 10px;
+}
+
+.fa-share-square {
+    color: #49BE03;
+}
+
+.right {
+    background-color: #4A4A4A;
+    color: red;
+    padding: 20px
 }
