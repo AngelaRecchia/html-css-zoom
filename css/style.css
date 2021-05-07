@@ -23,3 +23,12 @@ header span {
     margin: 5px;
     border-radius: 5px;
 }
+
+main {
+    height: calc(100vh - 160px);
+}
+
+footer {
+    height: 100px;
+    background-color: #222222;
+}
